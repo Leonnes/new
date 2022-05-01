@@ -32,7 +32,6 @@ class FeedViewController: UITabBarController {
       @objc private func tapAction() {
           let postVC = PostViewController()
           postVC.title = post.title
-         // present(postVC, animated: true)
           navigationController?.pushViewController(postVC, animated: true)
       }
 }
